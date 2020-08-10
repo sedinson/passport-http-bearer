@@ -1,3 +1,20 @@
+# passport-http-bearer-optional
+---
+<H2 align="center">WARNING</H2>
+<p align="center">
+  THIS IS A CLONE OF PASSPORT-HTTP-BEARER. THE ONLY ONE DIFFERENCE IS THAT HERE YOU CAN SEND AN `OPTIONAL` PARAM THAT IF SET TO TRUE, THEN IT WILL TRY TO AUTHENTICATE IF THE TOKEN IS SEND: 
+</p>
+
+---
+
+## Usage
+```js
+/**
+ * If the parameter `optional` is true, then it will try to authenticate ONLY if the token is send. If the parameter is false, then the token is required (regular working with unauthorized answer).
+ */
+passport.authenticate('bearer', { session: false, optional: true })
+```
+
 # passport-http-bearer
 
 HTTP Bearer authentication strategy for [Passport](http://passportjs.org/).
@@ -11,16 +28,6 @@ By plugging into Passport, bearer token support can be easily and unobtrusively
 integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
-
----
-
-<p align="center">
-  <sup>Advertisement</sup>
-  <br>
-  <a href="https://click.linksynergy.com/link?id=D*o7yui4/NM&offerid=507388.1672410&type=2&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Fnodejs-express-mongodb-bootcamp%2F&u1=1Mxk3SNFcRAr3r8tfxCmy64nCmTFQ1TmsTeVpqTwkquLPYaKN">Node.js, Express, MongoDB & More: The Complete Bootcamp 2020</a><br>Master Node by building a real-world RESTful API and web app (with authentication, Node.js security, payments & more)
-</p>
-
----
 
 [![npm](https://img.shields.io/npm/v/passport-http-bearer.svg)](https://www.npmjs.com/package/passport-http-bearer)
 [![build](https://img.shields.io/travis/jaredhanson/passport-http-bearer.svg)](https://travis-ci.org/jaredhanson/passport-http-bearer)
