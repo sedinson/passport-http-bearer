@@ -52,7 +52,7 @@
     "browsers": [
       "chrome/latest"
     ],
-    "harness" : "mocha",
+    "harness": "mocha",
     "files": [
       "test/bootstrap/testling.js",
       "test/*.test.js"
