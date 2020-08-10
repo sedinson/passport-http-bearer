@@ -1,5 +1,5 @@
 {
-  "name": "passport-http-bearer",
+  "name": "passport-http-bearer-optional",
   "version": "1.0.1",
   "description": "HTTP Bearer authentication strategy for Passport.",
   "keywords": [
@@ -16,15 +16,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/jaredhanson/passport-http-bearer.git"
+    "url": "git://github.com/sedinson/passport-http-bearer.git"
   },
   "bugs": {
-    "url": "http://github.com/jaredhanson/passport-http-bearer/issues"
+    "url": "http://github.com/sedinson/passport-http-bearer/issues"
   },
   "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
+    "name": "Edinson Salas",
+    "email": "edinsonsalas@gmail.com"
   },
   "license": "MIT",
   "licenses": [
