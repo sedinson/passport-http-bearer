@@ -1,6 +1,6 @@
 {
   "name": "passport-http-bearer-optional",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTTP Bearer authentication strategy for Passport.",
   "keywords": [
     "passport",
